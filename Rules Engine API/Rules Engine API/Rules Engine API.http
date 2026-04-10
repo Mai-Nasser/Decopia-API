@@ -1,6 +1,0 @@
-@Rules_Engine_API_HostAddress = http://localhost:5282
-
-GET {{Rules_Engine_API_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
