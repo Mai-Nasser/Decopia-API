@@ -25,45 +25,28 @@ public class RulesController : ControllerBase
         if (string.IsNullOrWhiteSpace(request.Payload))
             return BadRequest("Payload is required");
 
-        // ── Run rules engine ──────────────────────────────────────
-        var matches = _rulesEngine.Analyze(request.Payload);
+         var matches = _rulesEngine.Analyze(request.Payload);
 
         var sourceIp = !string.IsNullOrWhiteSpace(request.ClientId)
             ? request.ClientId
             : GetClientIpFromRequest();
 
-        // Extract unique attack names for display
-        var attackNames = matches
+         var attackNames = matches
             .Select(m => m.AttackName)
             .Distinct()
             .ToList();
 
         string attackType = string.Join("\n", attackNames);
 
-        // Store full match details (attackName + pattern + score)
-        var matchDetails = matches.Select(m => new
+         var matchDetails = matches.Select(m => new
         {
             AttackName = m.AttackName,
             Pattern = m.Pattern,
             Score = m.Score
         }).ToList();
 
-        //// ── Send syslog ───────────────────────────────────────────
-        //var securityEvent = new SecurityEvent
-        //{
-        //    EventType = "web_attack",
-        //    AttackType = attackType,
-        //    SourceIp = sourceIp,
-        //    Payload = request.Payload,
-        //    MatchedAttacks = attackNames,
-        //    Decoy = "webtrap-login",
-        //    Timestamp = DateTime.UtcNow
-        //};
-
-        //SyslogSender.Send(securityEvent);
-
-        // ── Persist evaluation session in DB ──────────────────────
-        var evalSession = new EvaluationSession
+        
+         var evalSession = new EvaluationSession
         {
             Payload = request.Payload,
             SourceIp = sourceIp,
@@ -72,16 +55,14 @@ public class RulesController : ControllerBase
             DetectedAttackType = attackType,
             MatchedAttacksJson = JsonSerializer.Serialize(matchDetails),
             CreatedAt = DateTime.UtcNow
-            // ✅ Removed: IsEvaluated = false (frontend enforces full evaluation)
-        };
+         };
 
         var savedSession = await _evalRepo.CreateSessionAsync(evalSession);
 
         if (savedSession == null)
             return StatusCode(500, "Failed to save evaluation session");
 
-        // ── Return response ───────────────────────────────────────
-        return Ok(new
+         return Ok(new
         {
             sessionId = savedSession.Id,
             payload = request.Payload,
@@ -90,8 +71,7 @@ public class RulesController : ControllerBase
         });
     }
 
-    // ─────────────────────────────────────────────────────────────
-    private string GetClientIpFromRequest()
+     private string GetClientIpFromRequest()
     {
         if (HttpContext.Request.Headers.TryGetValue("X-Forwarded-For", out var forwardedFor))
         {
