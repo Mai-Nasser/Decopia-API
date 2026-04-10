@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\Rules Engine API.props" />
-</Project>
