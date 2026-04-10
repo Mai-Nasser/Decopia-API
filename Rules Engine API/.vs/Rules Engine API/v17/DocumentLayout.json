@@ -1,0 +1,669 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|c:\\users\\mai nasser\\desktop\\decopia grad project\\rules engine api-with siem entigration\\rules engine api\\rules engine api\\controllers\\evaluationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|solutionrelative:rules engine api\\controllers\\evaluationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|c:\\users\\mai nasser\\desktop\\decopia grad project\\rules engine api-with siem entigration\\rules engine api\\rules engine api\\controllers\\rulescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|solutionrelative:rules engine api\\controllers\\rulescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|c:\\users\\mai nasser\\desktop\\decopia grad project\\rules engine api-with siem entigration\\rules engine api\\rules engine api\\models\\analyzerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|solutionrelative:rules engine api\\models\\analyzerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|c:\\users\\mai nasser\\desktop\\decopia grad project\\rules engine api-with siem entigration\\rules engine api\\rules engine api\\models\\attackevaluationrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|solutionrelative:rules engine api\\models\\attackevaluationrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|c:\\users\\mai nasser\\desktop\\decopia grad project\\rules engine api-with siem entigration\\rules engine api\\rules engine api\\models\\attackpattern.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|solutionrelative:rules engine api\\models\\attackpattern.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|c:\\users\\mai nasser\\desktop\\decopia grad project\\rules engine api-with siem entigration\\rules engine api\\rules engine api\\migrations\\20260306075347_initevaluation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|solutionrelative:rules engine api\\migrations\\20260306075347_initevaluation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|c:\\users\\mai nasser\\desktop\\decopia grad project\\rules engine api-with siem entigration\\rules engine api\\rules engine api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|solutionrelative:rules engine api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|c:\\users\\mai nasser\\desktop\\decopia grad project\\rules engine api-with siem entigration\\rules engine api\\rules engine api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|solutionrelative:rules engine api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|c:\\users\\mai nasser\\desktop\\decopia grad project\\rules engine api-with siem entigration\\rules engine api\\rules engine api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|solutionrelative:rules engine api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|c:\\users\\mai nasser\\desktop\\decopia grad project\\rules engine api-with siem entigration\\rules engine api\\rules engine api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|solutionrelative:rules engine api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|c:\\users\\mai nasser\\desktop\\decopia grad project\\rules engine api-with siem entigration\\rules engine api\\rules engine api\\services\\syslogsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|solutionrelative:rules engine api\\services\\syslogsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|c:\\users\\mai nasser\\desktop\\decopia grad project\\rules engine api-with siem entigration\\rules engine api\\rules engine api\\services\\eventmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|solutionrelative:rules engine api\\services\\eventmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|c:\\users\\mai nasser\\desktop\\decopia grad project\\rules engine api-with siem entigration\\rules engine api\\rules engine api\\models\\submitevaluationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|solutionrelative:rules engine api\\models\\submitevaluationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|c:\\users\\mai nasser\\desktop\\decopia grad project\\rules engine api-with siem entigration\\rules engine api\\rules engine api\\models\\securityevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|solutionrelative:rules engine api\\models\\securityevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mai Nasser\\AppData\\Local\\Temp\\.vsdbgsrc\\b38c7bbc046e461a8a58c7e0eb00bea4828feec3606c51aaae6062bc28a1448e\\FileConfigurationProvider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|c:\\users\\mai nasser\\desktop\\decopia grad project\\rules engine api-with siem entigration\\rules engine api\\rules engine api\\migrations\\20260407224808_extendpatterncolumn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|solutionrelative:rules engine api\\migrations\\20260407224808_extendpatterncolumn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|c:\\users\\mai nasser\\desktop\\decopia grad project\\rules engine api-with siem entigration\\rules engine api\\rules engine api\\rulesengineapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|solutionrelative:rules engine api\\rulesengineapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mai Nasser\\Downloads\\response_1775441837080.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|c:\\users\\mai nasser\\desktop\\decopia grad project\\rules engine api-with siem entigration\\rules engine api\\rules engine api\\services\\rulesengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|solutionrelative:rules engine api\\services\\rulesengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|c:\\users\\mai nasser\\desktop\\decopia grad project\\rules engine api-with siem entigration\\rules engine api\\rules engine api\\repositories\\evaluationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|solutionrelative:rules engine api\\repositories\\evaluationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|c:\\users\\mai nasser\\desktop\\decopia grad project\\rules engine api-with siem entigration\\rules engine api\\rules engine api\\models\\evaluationstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|solutionrelative:rules engine api\\models\\evaluationstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|c:\\users\\mai nasser\\desktop\\decopia grad project\\rules engine api-with siem entigration\\rules engine api\\rules engine api\\models\\attacksummary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|solutionrelative:rules engine api\\models\\attacksummary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|c:\\users\\mai nasser\\desktop\\decopia grad project\\rules engine api-with siem entigration\\rules engine api\\rules engine api\\migrations\\20260406020651_finaledit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|solutionrelative:rules engine api\\migrations\\20260406020651_finaledit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|c:\\users\\mai nasser\\desktop\\decopia grad project\\rules engine api-with siem entigration\\rules engine api\\rules engine api\\repositories\\ievaluationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|solutionrelative:rules engine api\\repositories\\ievaluationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|c:\\users\\mai nasser\\desktop\\decopia grad project\\rules engine api-with siem entigration\\rules engine api\\rules engine api\\models\\evaluationsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|solutionrelative:rules engine api\\models\\evaluationsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|c:\\users\\mai nasser\\desktop\\decopia grad project\\rules engine api-with siem entigration\\rules engine api\\rules engine api\\migrations\\20260404231039_editappdbcontext2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|solutionrelative:rules engine api\\migrations\\20260404231039_editappdbcontext2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|c:\\users\\mai nasser\\desktop\\decopia grad project\\rules engine api-with siem entigration\\rules engine api\\rules engine api\\migrations\\20260404230925_editappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|solutionrelative:rules engine api\\migrations\\20260404230925_editappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|c:\\users\\mai nasser\\desktop\\decopia grad project\\rules engine api-with siem entigration\\rules engine api\\rules engine api\\migrations\\20260404225011_expandpatterncolumn2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|solutionrelative:rules engine api\\migrations\\20260404225011_expandpatterncolumn2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|c:\\users\\mai nasser\\desktop\\decopia grad project\\rules engine api-with siem entigration\\rules engine api\\rules engine api\\migrations\\20260404223536_expandpatterncolumn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|solutionrelative:rules engine api\\migrations\\20260404223536_expandpatterncolumn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|c:\\users\\mai nasser\\desktop\\decopia grad project\\rules engine api-with siem entigration\\rules engine api\\rules engine api\\migrations\\20260326200436_updateevaluationschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|solutionrelative:rules engine api\\migrations\\20260326200436_updateevaluationschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|c:\\users\\mai nasser\\desktop\\decopia grad project\\rules engine api-with siem entigration\\rules engine api\\rules engine api\\rules\\conf-6.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|solutionrelative:rules engine api\\rules\\conf-6.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|c:\\users\\mai nasser\\desktop\\decopia grad project\\rules engine api-with siem entigration\\rules engine api\\rules engine api\\services\\irulesengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|solutionrelative:rules engine api\\services\\irulesengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|c:\\users\\mai nasser\\desktop\\decopia grad project\\rules engine api-with siem entigration\\rules engine api\\rules engine api\\models\\detectionresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|solutionrelative:rules engine api\\models\\detectionresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|c:\\users\\mai nasser\\desktop\\decopia grad project\\rules engine api-with siem entigration\\rules engine api\\rules engine api\\models\\attackrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|solutionrelative:rules engine api\\models\\attackrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|c:\\users\\mai nasser\\desktop\\decopia grad project\\rules engine api-with siem entigration\\rules engine api\\rules engine api\\migrations\\20260326031250_addassignedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|solutionrelative:rules engine api\\migrations\\20260326031250_addassignedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|c:\\users\\mai nasser\\desktop\\decopia grad project\\rules engine api-with siem entigration\\rules engine api\\rules engine api\\migrations\\20260324231130_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|solutionrelative:rules engine api\\migrations\\20260324231130_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|c:\\users\\mai nasser\\desktop\\decopia grad project\\rules engine api-with siem entigration\\rules engine api\\rules engine api\\migrations\\20260324225450_initrulesengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|solutionrelative:rules engine api\\migrations\\20260324225450_initrulesengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|c:\\users\\mai nasser\\desktop\\decopia grad project\\rules engine api-with siem entigration\\rules engine api\\rules engine api\\migrations\\20260306084233_initevaluationv01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|solutionrelative:rules engine api\\migrations\\20260306084233_initevaluationv01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|c:\\users\\mai nasser\\desktop\\decopia grad project\\rules engine api-with siem entigration\\rules engine api\\rules engine api\\migrations\\20260324210247_addattackevaluationrecords.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|solutionrelative:rules engine api\\migrations\\20260324210247_addattackevaluationrecords.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|c:\\users\\mai nasser\\desktop\\decopia grad project\\rules engine api-with siem entigration\\rules engine api\\rules engine api\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8EF62F8-658D-466F-B861-A6BDB19EC246}|Rules Engine API\\RulesEngineAPI.csproj|solutionrelative:rules engine api\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 230,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "RulesEngine.cs",
+              "DocumentMoniker": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Services\\RulesEngine.cs",
+              "RelativeDocumentMoniker": "Rules Engine API\\Services\\RulesEngine.cs",
+              "ToolTip": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Services\\RulesEngine.cs",
+              "RelativeToolTip": "Rules Engine API\\Services\\RulesEngine.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAiwJ4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T00:52:52.963Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EvaluationController.cs",
+              "DocumentMoniker": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Controllers\\EvaluationController.cs",
+              "RelativeDocumentMoniker": "Rules Engine API\\Controllers\\EvaluationController.cs",
+              "ToolTip": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Controllers\\EvaluationController.cs",
+              "RelativeToolTip": "Rules Engine API\\Controllers\\EvaluationController.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T07:33:04.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Rules Engine API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Rules Engine API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-06T08:46:36.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RulesController.cs",
+              "DocumentMoniker": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Controllers\\RulesController.cs",
+              "RelativeDocumentMoniker": "Rules Engine API\\Controllers\\RulesController.cs",
+              "ToolTip": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Controllers\\RulesController.cs",
+              "RelativeToolTip": "Rules Engine API\\Controllers\\RulesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T01:10:10.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Rules Engine API\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Rules Engine API\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T07:34:02.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20260306075347_InitEvaluation.cs",
+              "DocumentMoniker": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Migrations\\20260306075347_InitEvaluation.cs",
+              "RelativeDocumentMoniker": "Rules Engine API\\Migrations\\20260306075347_InitEvaluation.cs",
+              "ToolTip": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Migrations\\20260306075347_InitEvaluation.cs",
+              "RelativeToolTip": "Rules Engine API\\Migrations\\20260306075347_InitEvaluation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T07:53:47.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AnalyzeRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Models\\AnalyzeRequest.cs",
+              "RelativeDocumentMoniker": "Rules Engine API\\Models\\AnalyzeRequest.cs",
+              "ToolTip": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Models\\AnalyzeRequest.cs",
+              "RelativeToolTip": "Rules Engine API\\Models\\AnalyzeRequest.cs",
+              "ViewState": "AgIAAAQAAABgs9lQO6w6wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T00:44:26.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AttackPattern.cs",
+              "DocumentMoniker": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Models\\AttackPattern.cs",
+              "RelativeDocumentMoniker": "Rules Engine API\\Models\\AttackPattern.cs",
+              "ToolTip": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Models\\AttackPattern.cs",
+              "RelativeToolTip": "Rules Engine API\\Models\\AttackPattern.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T00:44:07.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Attackevaluationrecord.cs",
+              "DocumentMoniker": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Models\\Attackevaluationrecord.cs",
+              "RelativeDocumentMoniker": "Rules Engine API\\Models\\Attackevaluationrecord.cs",
+              "ToolTip": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Models\\Attackevaluationrecord.cs",
+              "RelativeToolTip": "Rules Engine API\\Models\\Attackevaluationrecord.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T20:55:43.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Program.cs",
+              "RelativeDocumentMoniker": "Rules Engine API\\Program.cs",
+              "ToolTip": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Program.cs",
+              "RelativeToolTip": "Rules Engine API\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAFcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T01:03:01.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SecurityEvent.cs",
+              "DocumentMoniker": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Models\\SecurityEvent.cs",
+              "RelativeDocumentMoniker": "Rules Engine API\\Models\\SecurityEvent.cs",
+              "ToolTip": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Models\\SecurityEvent.cs",
+              "RelativeToolTip": "Rules Engine API\\Models\\SecurityEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T07:25:35.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SubmitEvaluationRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Models\\SubmitEvaluationRequest.cs",
+              "RelativeDocumentMoniker": "Rules Engine API\\Models\\SubmitEvaluationRequest.cs",
+              "ToolTip": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Models\\SubmitEvaluationRequest.cs",
+              "RelativeToolTip": "Rules Engine API\\Models\\SubmitEvaluationRequest.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAIwCUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T07:38:30.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EventMapper.cs",
+              "DocumentMoniker": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Services\\EventMapper.cs",
+              "RelativeDocumentMoniker": "Rules Engine API\\Services\\EventMapper.cs",
+              "ToolTip": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Services\\EventMapper.cs",
+              "RelativeToolTip": "Rules Engine API\\Services\\EventMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T22:03:33.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\appsettings.json",
+              "RelativeDocumentMoniker": "Rules Engine API\\appsettings.json",
+              "ToolTip": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\appsettings.json",
+              "RelativeToolTip": "Rules Engine API\\appsettings.json",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAjwAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-15T01:24:51.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SyslogSender.cs",
+              "DocumentMoniker": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Services\\SyslogSender.cs",
+              "RelativeDocumentMoniker": "Rules Engine API\\Services\\SyslogSender.cs",
+              "ToolTip": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Services\\SyslogSender.cs",
+              "RelativeToolTip": "Rules Engine API\\Services\\SyslogSender.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAADwv50AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T22:03:59.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FileConfigurationProvider.cs",
+              "DocumentMoniker": "C:\\Users\\Mai Nasser\\AppData\\Local\\Temp\\.vsdbgsrc\\b38c7bbc046e461a8a58c7e0eb00bea4828feec3606c51aaae6062bc28a1448e\\FileConfigurationProvider.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\b38c7bbc046e461a8a58c7e0eb00bea4828feec3606c51aaae6062bc28a1448e\\FileConfigurationProvider.cs",
+              "ToolTip": "C:\\Users\\Mai Nasser\\AppData\\Local\\Temp\\.vsdbgsrc\\b38c7bbc046e461a8a58c7e0eb00bea4828feec3606c51aaae6062bc28a1448e\\FileConfigurationProvider.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\b38c7bbc046e461a8a58c7e0eb00bea4828feec3606c51aaae6062bc28a1448e\\FileConfigurationProvider.cs [Read Only]",
+              "ViewState": "AgIAADEAAAAAAAAAAAAAAEEAAAAFAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T18:55:48.308Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20260407224808_ExtendPatternColumn.cs",
+              "DocumentMoniker": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Migrations\\20260407224808_ExtendPatternColumn.cs",
+              "RelativeDocumentMoniker": "Rules Engine API\\Migrations\\20260407224808_ExtendPatternColumn.cs",
+              "ToolTip": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Migrations\\20260407224808_ExtendPatternColumn.cs",
+              "RelativeToolTip": "Rules Engine API\\Migrations\\20260407224808_ExtendPatternColumn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T22:48:09.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RulesEngineAPI.csproj",
+              "DocumentMoniker": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\RulesEngineAPI.csproj",
+              "RelativeDocumentMoniker": "Rules Engine API\\RulesEngineAPI.csproj",
+              "ToolTip": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\RulesEngineAPI.csproj",
+              "RelativeToolTip": "Rules Engine API\\RulesEngineAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-06T07:35:12.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "EvaluationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Repositories\\EvaluationRepository.cs",
+              "RelativeDocumentMoniker": "Rules Engine API\\Repositories\\EvaluationRepository.cs",
+              "ToolTip": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Repositories\\EvaluationRepository.cs",
+              "RelativeToolTip": "Rules Engine API\\Repositories\\EvaluationRepository.cs",
+              "ViewState": "AgIAAEoEAAAAAAAAAAAswG0EAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T07:35:40.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "EvaluationStats.cs",
+              "DocumentMoniker": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Models\\EvaluationStats.cs",
+              "RelativeDocumentMoniker": "Rules Engine API\\Models\\EvaluationStats.cs",
+              "ToolTip": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Models\\EvaluationStats.cs",
+              "RelativeToolTip": "Rules Engine API\\Models\\EvaluationStats.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAIwG4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T07:37:58.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Attacksummary.cs",
+              "DocumentMoniker": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Models\\Attacksummary.cs",
+              "RelativeDocumentMoniker": "Rules Engine API\\Models\\Attacksummary.cs",
+              "ToolTip": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Models\\Attacksummary.cs",
+              "RelativeToolTip": "Rules Engine API\\Models\\Attacksummary.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAmwFUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T02:01:35.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "20260406020651_FinalEdit.cs",
+              "DocumentMoniker": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Migrations\\20260406020651_FinalEdit.cs",
+              "RelativeDocumentMoniker": "Rules Engine API\\Migrations\\20260406020651_FinalEdit.cs",
+              "ToolTip": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Migrations\\20260406020651_FinalEdit.cs",
+              "RelativeToolTip": "Rules Engine API\\Migrations\\20260406020651_FinalEdit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T02:06:52.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "response_1775441837080.json",
+              "DocumentMoniker": "C:\\Users\\Mai Nasser\\Downloads\\response_1775441837080.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\response_1775441837080.json",
+              "ToolTip": "C:\\Users\\Mai Nasser\\Downloads\\response_1775441837080.json",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\response_1775441837080.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-06T02:24:18.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IEvaluationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Repositories\\IEvaluationRepository.cs",
+              "RelativeDocumentMoniker": "Rules Engine API\\Repositories\\IEvaluationRepository.cs",
+              "ToolTip": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Repositories\\IEvaluationRepository.cs",
+              "RelativeToolTip": "Rules Engine API\\Repositories\\IEvaluationRepository.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAAwFoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T07:35:27.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "EvaluationSession.cs",
+              "DocumentMoniker": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Models\\EvaluationSession.cs",
+              "RelativeDocumentMoniker": "Rules Engine API\\Models\\EvaluationSession.cs",
+              "ToolTip": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Models\\EvaluationSession.cs",
+              "RelativeToolTip": "Rules Engine API\\Models\\EvaluationSession.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAuwDkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T07:34:27.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "20260404231039_EditAppDBContext2.cs",
+              "DocumentMoniker": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Migrations\\20260404231039_EditAppDBContext2.cs",
+              "RelativeDocumentMoniker": "Rules Engine API\\Migrations\\20260404231039_EditAppDBContext2.cs",
+              "ToolTip": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Migrations\\20260404231039_EditAppDBContext2.cs",
+              "RelativeToolTip": "Rules Engine API\\Migrations\\20260404231039_EditAppDBContext2.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwBQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T23:10:39.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "20260404230925_EditAppDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Migrations\\20260404230925_EditAppDBContext.cs",
+              "RelativeDocumentMoniker": "Rules Engine API\\Migrations\\20260404230925_EditAppDBContext.cs",
+              "ToolTip": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Migrations\\20260404230925_EditAppDBContext.cs",
+              "RelativeToolTip": "Rules Engine API\\Migrations\\20260404230925_EditAppDBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T23:09:26.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "20260404225011_ExpandPatternColumn2.cs",
+              "DocumentMoniker": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Migrations\\20260404225011_ExpandPatternColumn2.cs",
+              "RelativeDocumentMoniker": "Rules Engine API\\Migrations\\20260404225011_ExpandPatternColumn2.cs",
+              "ToolTip": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Migrations\\20260404225011_ExpandPatternColumn2.cs",
+              "RelativeToolTip": "Rules Engine API\\Migrations\\20260404225011_ExpandPatternColumn2.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwA0AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T22:50:12.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "20260404223536_ExpandPatternColumn.cs",
+              "DocumentMoniker": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Migrations\\20260404223536_ExpandPatternColumn.cs",
+              "RelativeDocumentMoniker": "Rules Engine API\\Migrations\\20260404223536_ExpandPatternColumn.cs",
+              "ToolTip": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Migrations\\20260404223536_ExpandPatternColumn.cs",
+              "RelativeToolTip": "Rules Engine API\\Migrations\\20260404223536_ExpandPatternColumn.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAADwvxkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T22:35:38.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "20260326200436_UpdateEvaluationSchema.cs",
+              "DocumentMoniker": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Migrations\\20260326200436_UpdateEvaluationSchema.cs",
+              "RelativeDocumentMoniker": "Rules Engine API\\Migrations\\20260326200436_UpdateEvaluationSchema.cs",
+              "ToolTip": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Migrations\\20260326200436_UpdateEvaluationSchema.cs",
+              "RelativeToolTip": "Rules Engine API\\Migrations\\20260326200436_UpdateEvaluationSchema.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAWwDYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T20:04:36.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "conf-6.json",
+              "DocumentMoniker": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Rules\\conf-6.json",
+              "RelativeDocumentMoniker": "Rules Engine API\\Rules\\conf-6.json",
+              "ToolTip": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Rules\\conf-6.json",
+              "RelativeToolTip": "Rules Engine API\\Rules\\conf-6.json",
+              "ViewState": "AgIAAAUKAAAAAAAAAAAswD8KAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-19T13:08:53.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IRulesEngine.cs",
+              "DocumentMoniker": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Services\\IRulesEngine.cs",
+              "RelativeDocumentMoniker": "Rules Engine API\\Services\\IRulesEngine.cs",
+              "ToolTip": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Services\\IRulesEngine.cs",
+              "RelativeToolTip": "Rules Engine API\\Services\\IRulesEngine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T00:51:09.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "DetectionResult.cs",
+              "DocumentMoniker": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Models\\DetectionResult.cs",
+              "RelativeDocumentMoniker": "Rules Engine API\\Models\\DetectionResult.cs",
+              "ToolTip": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Models\\DetectionResult.cs",
+              "RelativeToolTip": "Rules Engine API\\Models\\DetectionResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T00:44:39.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "AttackRule.cs",
+              "DocumentMoniker": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Models\\AttackRule.cs",
+              "RelativeDocumentMoniker": "Rules Engine API\\Models\\AttackRule.cs",
+              "ToolTip": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Models\\AttackRule.cs",
+              "RelativeToolTip": "Rules Engine API\\Models\\AttackRule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T00:44:17.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "20260326031250_AddAssignedTo.cs",
+              "DocumentMoniker": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Migrations\\20260326031250_AddAssignedTo.cs",
+              "RelativeDocumentMoniker": "Rules Engine API\\Migrations\\20260326031250_AddAssignedTo.cs",
+              "ToolTip": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Migrations\\20260326031250_AddAssignedTo.cs",
+              "RelativeToolTip": "Rules Engine API\\Migrations\\20260326031250_AddAssignedTo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T03:12:51.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "20260324231130_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Migrations\\20260324231130_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Rules Engine API\\Migrations\\20260324231130_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Migrations\\20260324231130_InitialCreate.cs",
+              "RelativeToolTip": "Rules Engine API\\Migrations\\20260324231130_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T23:11:30.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "20260324225450_InitRulesEngine.cs",
+              "DocumentMoniker": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Migrations\\20260324225450_InitRulesEngine.cs",
+              "RelativeDocumentMoniker": "Rules Engine API\\Migrations\\20260324225450_InitRulesEngine.cs",
+              "ToolTip": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Migrations\\20260324225450_InitRulesEngine.cs",
+              "RelativeToolTip": "Rules Engine API\\Migrations\\20260324225450_InitRulesEngine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T22:54:51.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "20260306084233_InitEvaluationV01.cs",
+              "DocumentMoniker": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Migrations\\20260306084233_InitEvaluationV01.cs",
+              "RelativeDocumentMoniker": "Rules Engine API\\Migrations\\20260306084233_InitEvaluationV01.cs",
+              "ToolTip": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Migrations\\20260306084233_InitEvaluationV01.cs",
+              "RelativeToolTip": "Rules Engine API\\Migrations\\20260306084233_InitEvaluationV01.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T08:42:33.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "20260324210247_AddAttackEvaluationRecords.cs",
+              "DocumentMoniker": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Migrations\\20260324210247_AddAttackEvaluationRecords.cs",
+              "RelativeDocumentMoniker": "Rules Engine API\\Migrations\\20260324210247_AddAttackEvaluationRecords.cs",
+              "ToolTip": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Migrations\\20260324210247_AddAttackEvaluationRecords.cs",
+              "RelativeToolTip": "Rules Engine API\\Migrations\\20260324210247_AddAttackEvaluationRecords.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T21:02:47.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Rules Engine API\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Mai Nasser\\Desktop\\Decopia Grad Project\\Rules Engine API-with SIEM Entigration\\Rules Engine API\\Rules Engine API\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Rules Engine API\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAuwE4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T08:38:20.914Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

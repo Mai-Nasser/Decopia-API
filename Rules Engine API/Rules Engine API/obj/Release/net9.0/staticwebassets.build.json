@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "KIoZM7KBRDYNqbjSCmMx3GQMwOR9OYPmmp3qw5P5X4k=",
+  "Source": "RulesEngineAPI",
+  "BasePath": "_content/RulesEngineAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
