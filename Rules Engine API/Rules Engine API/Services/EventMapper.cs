@@ -17,17 +17,10 @@ namespace Rules_Engine_API.Services
                 AttackType = string.Join(" + ", matches.Distinct()),
                 SourceIp = sourceIp,
                 Payload = payload,
-                //TotalScore = totalScore,
-                MatchedAttacks = matches,
+                 MatchedAttacks = matches,
                 Decoy = "webtrap-login",
-                //Severity = totalScore switch
-                //{
-                //    >= 30 => "critical",
-                //    >= 20 => "high",
-                //    >= 10 => "medium",
-                //    _ => "low"
-                //},
-                Timestamp = DateTime.UtcNow
+               
+                 Timestamp = DateTime.UtcNow
             };
         }
     }
