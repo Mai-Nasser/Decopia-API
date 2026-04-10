@@ -8,7 +8,7 @@ namespace Decopia.API.Interfaces
         Task<UserResponseDto> UpdateUserAsync(Guid publicId, UpdateUserDto dto);
         Task<bool> DeleteUserAsync(Guid publicId);
         Task<UserResponseDto> GetUserAsync(Guid publicId);
-        Task<List<UserResponseDto>> GetUsersAsync();               // ⭐ الجديد الصح
+        Task<List<UserResponseDto>> GetUsersAsync();                
         Task<List<UserResponseDto>> SearchUsersByNameAsync(string name);
         Task<bool> ChangeStatusAsync(Guid publicId, bool isActive);
     }
