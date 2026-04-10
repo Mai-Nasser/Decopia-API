@@ -42,7 +42,7 @@ namespace Decopia.API.Services
 
         public async Task<UserResponseDto> UpdateUserAsync(Guid publicId, UpdateUserDto dto)
         {
-            var user = await _context.Users.FirstOrDefaultAsync(x => x.PublicId == publicId //&& !x.IsDeleted
+            var user = await _context.Users.FirstOrDefaultAsync(x => x.PublicId == publicId  
                                                                );
 
             if (user == null || user.IsDeleted)
@@ -52,8 +52,7 @@ namespace Decopia.API.Services
                 user.FullName = dto.FullName;
 
 
-            //if (!string.IsNullOrWhiteSpace(dto.Email))
-            //    user.Email = dto.Email;
+           
 
             if (!string.IsNullOrWhiteSpace(dto.Role))
                 user.Role = dto.Role;
@@ -80,14 +79,14 @@ namespace Decopia.API.Services
 
             user.IsDeleted = true;
             user.DeletedAt = DateTime.UtcNow;
-            user.IsActive = false;        // اختياري: منطقي المستخدم المتحذف يبقى غير مفعل
+            user.IsActive = false;          
             await _context.SaveChangesAsync();
             return true;
         }
 
         public async Task<UserResponseDto> GetUserAsync(Guid publicId)
         {
-            var user = await _context.Users.FirstOrDefaultAsync(x => x.PublicId == publicId //&& !x.IsDeleted
+            var user = await _context.Users.FirstOrDefaultAsync(x => x.PublicId == publicId  
             );
             if (user == null) return null;
 
@@ -132,7 +131,7 @@ namespace Decopia.API.Services
 
         public async Task<bool> ChangeStatusAsync(Guid publicId, bool isActive)
         {
-            var user = await _context.Users.FirstOrDefaultAsync(x => x.PublicId == publicId //&& !x.IsDeleted
+            var user = await _context.Users.FirstOrDefaultAsync(x => x.PublicId == publicId  
             );
             if (user == null) return false;
 
